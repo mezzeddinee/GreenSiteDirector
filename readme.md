@@ -32,7 +32,7 @@ GreenDiracAgent/
 ├── **init**.py
 └── Agent/
 ├── **init**.py
-└── MySiteDirector.py
+└── GreenSiteDirector.py
 
 ````
 
@@ -73,7 +73,7 @@ Update your DIRAC configuration to load this extension and run your agent.
 ```ini
 DIRAC
 {
-  Extensions = myext
+  Extensions = GreenSiteDirector
 }
 ```
 
@@ -92,7 +92,7 @@ Systems
         {
           Enabled = True
           PollingTime = 300
-          Module = myext.WorkloadManagementSystem.Agent.MySiteDirector
+          Module = myext.WorkloadManagementSystem.Agent.GreenSiteDirector
 
           VO = myvo
           MaxPilotsToSubmit = 50
@@ -112,7 +112,7 @@ Systems
 Start the agent like any standard DIRAC component:
 
 ```bash
-dirac-start-agent WorkloadManagement/MySiteDirector
+dirac-start-agent WorkloadManagement/GreenSiteDirector
 ```
 
 You can run this alongside the default SiteDirector or replace it entirely.
