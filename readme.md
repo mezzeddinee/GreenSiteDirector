@@ -26,7 +26,7 @@ This plugin allows you to customize or extend that logic while keeping full comp
 
 ```
 
-myext/
+GreenDiracAgent/
 ├── **init**.py
 └── WorkloadManagementSystem/
 ├── **init**.py
@@ -146,9 +146,4 @@ You can run this alongside the default SiteDirector or replace it entirely.
 
 Distributed under the same license as DIRAC unless otherwise specified.
 
-```
 
----
-
-Would you like me to add a **small architecture diagram** (e.g., PNG or Markdown Mermaid flow) inside this README showing how your custom Site Director fits into DIRAC?
-```
